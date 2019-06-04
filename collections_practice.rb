@@ -42,7 +42,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect.each_with_index {|element,index|}
+  new_array = []
+    array.collect.each_with_index {|element,index|}
     if index != 1 
       element << "s"
     end
