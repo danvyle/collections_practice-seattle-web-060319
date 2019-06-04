@@ -34,7 +34,7 @@ def find_a(array)
        new_array << word
      end
     end
-    return new_array.flatten
+    return new_array
 end
   
 def sum_array(array)
