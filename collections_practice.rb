@@ -27,6 +27,16 @@ def kesha_maker(array)
     end
 end
 
-def
+def find_a(array)
+  array.map do |word|
+    word.start_with?("a")
+  end
 end
+  
+def sum_array(array)
+end
+
+def add_s(array)
+end
+
   
